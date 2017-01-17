@@ -1,0 +1,56 @@
+#bodystuff{
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4f/UP_Diliman_Sunken_Garden_in_2012.jpg');
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+
+
+}
+
+.imgcont{
+	width:300px;
+	height:300px;
+
+}
+.imgcont img{
+
+	max-height: 150px;
+    max-width: 200px;
+	width: 100%;
+	height: auto;
+
+}
+
+
+.jumbotron{
+	background-color: rgba(175,175,175,0.6);
+	font-family: Comic Sans MS;
+}
+
+#floatingRectangle{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+
+    height: 100px;
+
+    background-color: #000;
+    color: white;
+
+    padding: 0;
+}
+
+.profpic{
+	border-radius: 50% 50% 50% 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.profpar{
+
+
+}
+

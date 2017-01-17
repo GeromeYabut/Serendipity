@@ -1,0 +1,106 @@
+#bodystuff{
+	background-image: url('Front page.png');
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	background-repeat:no-repeat;
+	display:block;
+
+
+}
+
+.imgcont{
+	width:300px;
+	height:300px;
+
+}
+.imgcont img{
+
+	max-height: 150px;
+    max-width: 200px;
+	width: 100%;
+	height: auto;
+
+}
+
+
+.jumbotron{
+	background-color: rgba(175,175,175,0.0);
+	font-family: Comic Sans MS;
+}
+
+#floatingRectangle{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+
+    height: 100px;
+
+    background-color: #000;
+    color: white;
+
+    padding: 0;
+}
+
+.profpic{
+	border-radius: 50% 50% 50% 50%;
+	width: 200px;
+	height: 200px;
+
+}
+
+.profpar{
+
+
+}
+
+.memberpic{
+	border-radius: 50% 50% 50% 50%;
+	width: 55px;
+	height: 55px;
+
+}
+
+.description{
+	background-color: rgba(175,175,175,0.6);
+
+
+}
+
+.col-lg-12 {
+    background-color: #fcfccf;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+.circle {
+border-radius: 100%;
+width: 75%;
+height:50%;
+margin:auto;
+position: relative;
+
+background-color: blue;
+}
+
+.circle div{
+	
+	margin: 0;
+   position: relative;             /* 2 */
+   top: 50%;                         /* 3 */
+   width:50%;
+   transform: translate(50%, -50%) }   /* 4 */
+}
+
+.circle div p{
+	text-align: right;
+}
+
+.circle div h2{
+	color:white;
+	font-family: "Arial";
+}

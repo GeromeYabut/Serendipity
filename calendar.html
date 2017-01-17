@@ -1,0 +1,25 @@
+<div class = "animated fadeIn">
+<div class = "col-md-6"> </div>
+<div class = "col-md-6 animated fadeIn">
+ 	<script type = "text/javascript">
+		myCal = new CALENDAR();
+
+		myCal.tFontFace = "Comic Sans MS";    // change font face for title (month)
+  		myCal.hFontSize = 56;                  // change font size for heading (weekdays)
+  		myCal.dFontColor = "#808080";         // change font color for days
+  		myCal.offset = 2;                     // start week with Monday
+
+  		myCal.dFontSize = 46
+  		myCal.wFontSize = 48
+
+      myCal.link = "#";
+
+
+  		myCal.viewEvent(7, 7, "#A0B0C0", "Peter's birthday","#");
+      myCal.viewEventEach(2, "#FFFFA0", "I hate Mondays!");
+
+  		$("#MyContainer").html("<div class = 'col-sm-1'></div>" + myCal.create());
+      
+  	</script>
+</div>
+</div>
